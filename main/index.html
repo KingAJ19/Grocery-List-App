@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List App</title>
+    <link rel="icon" type="image/png" href="/Images/Icons/pencil.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 id="page-title">Grocery List Application</h1>
+    <hr id="title_hr">
+
+    <div id="form-wrapper">
+      <form action="" id="list-form">
+        <input type="text" class="form-input" name="product_name" placeholder="Product Name" required>
+        <input type="number"  step="any" min="0" name="quantity" class="form-input" placeholder="Qty" required>
+        <button id="form-button" title="Save Item"><i class="fa fa-save"></i></button>
+      </form>
+    </div>
+    <div id="grocery_list"></div>
+  <script src="script.js"></script>
+</body>
+</html>
